@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnackExplorer - Detector de Sabores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SnackExplorer</h1>
+        <p class="subtitle">Detector de Sabores Espaciais</p>
+        
+        <div class="input-group">
+            <label for="snacks-input">Salgadinhos coletados (separados por vírgula):</label>
+            <input type="text" id="snacks-input" placeholder="Ex: 8, 3, 4, 8, 2, 3, 4, 10, 10">
+        </div>
+        
+        <div class="button-group">
+            <button id="detect-btn" style="--clr:#ff8c00"><span>DETECTAR</span><i></i></button>
+            <button id="reset-btn" style="--clr:#ff8c00"><span>RETORNAR</span><i></i></button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result-output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
